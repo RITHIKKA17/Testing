@@ -1,5 +1,6 @@
 package com.selenium.Day_5;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,12 +12,35 @@ public class Testcase_2 {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://j2store.net/free/");
+		String url="https://j2store.net/free/";
+		driver.get(url);
 		driver.manage().window().maximize();
+		Thread.sleep(1000);
 		System.out.println(driver.getCurrentUrl());
+		String newurl="https://j2store.net/free/";
+		if(driver.getCurrentUrl().equals(newurl))
+		{
+			System.out.println("Valid url");
+		}
+		else
+		{
+			System.out.println("Invalid url");
+		}
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id=\"Mod112\"]/div/div/ul/li[1]")).click();
+		Thread.sleep(1000);
+		String curl="https://j2store.net/free/index.php/shop?filter_catid=11";
+		if(driver.getCurrentUrl().equals(curl))
+		{
+			System.out.println("Valid url");
+		}
+		else
+		{
+			System.out.println("Invalid url");
+		}
 		Thread.sleep(1000);
 		driver.quit();
 
 	}
 
-}
+};
