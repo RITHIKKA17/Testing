@@ -3,6 +3,6 @@
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="dev.failsafe.internal.util.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

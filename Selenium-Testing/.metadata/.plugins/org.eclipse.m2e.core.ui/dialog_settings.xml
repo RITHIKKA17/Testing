@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Rithikka\Desktop\Testing\Selenium-Testing\Day_5\src\main\java\com\selenium\Day_5\Testcase_5.java"/>
 			<item value="C:\Users\Rithikka\Desktop\Testing\Selenium-Testing\Day_4\src\main\java\com\selenium\Day_4\Testcase_6.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,15 +27,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.selenium.Day_5"/>
-			<item value="com.selenium.Day_4"/>
 		</list>
 		<list key="groupId">
-			<item value="com.selenium"/>
 		</list>
 		<list key="artifactId">
-			<item value="Day_5"/>
-			<item value="Day_4"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
