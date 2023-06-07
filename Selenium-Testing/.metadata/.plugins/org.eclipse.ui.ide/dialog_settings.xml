@@ -31,5 +31,6 @@
 		<item value="org.eclipse.wst.common.fproj:3.7.4.v202303031844"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.1.202301111328"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
+		<item value="org.testng.eclipse:7.4.0.202106051955"/>
 	</list>
 </section>
